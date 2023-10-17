@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/sneo-api-framework/sneo-api-framework.iml" filepath="$PROJECT_DIR$/sneo-api-framework/sneo-api-framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xml-comparison-tests/xml-comparison-tests.iml" filepath="$PROJECT_DIR$/xml-comparison-tests/xml-comparison-tests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xml-comparison-tool.iml" filepath="$PROJECT_DIR$/xml-comparison-tool.iml" />
+    </modules>
+  </component>
+</project>

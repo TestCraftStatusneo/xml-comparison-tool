@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.sneo</groupId>
+    <artifactId>xml-comparison-tool</artifactId>
+    <version>1.0.1</version>
+    <packaging>pom</packaging>
+
+    <properties>
+        <module-name>xml-comparison-tests</module-name>
+    </properties>
+
+    <modules>
+        <!-- The repository module must be first in order to ensure
+             that the local repository is populated -->
+        <module>sneo-api-framework</module>
+        <module>${module-name}</module>
+    </modules>
+    <dependencies>
+        <dependency>
+            <groupId>com.aventstack</groupId>
+            <artifactId>extentreports</artifactId>
+            <version>5.0.9</version>
+        </dependency>
+    </dependencies>
+
+</project>

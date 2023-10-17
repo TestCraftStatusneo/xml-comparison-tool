@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="regression" parallel="false" verbose="1" thread-count="1">
+
+    <test name="AVIS_API_Automation_Regression_Tests">
+
+        <classes>
+            <class name="com.sneo.api.compare.FunctionalComparisonTests"></class>
+        </classes>
+    </test>
+
+
+</suite>
